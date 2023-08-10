@@ -9,7 +9,7 @@ public class ex1 {
 		Scanner teclado = new Scanner(System.in);
 		int [] v = new int [5];
 		int maior = Integer.MIN_VALUE; //inverto - se eu coloco na 1° '1' vai er o maior, mas se na 2° eu colcoar '2' ent ele vai ser o maior
-		int menor = Integer.MAX_VALUE;
+		int menor = Integer.MAX_VALUE; //vai do maior até o menor
 		
 		// entrada de dados
 		for(int i = 0; i < v.length; i++){ //x.length - é o ultimo numero
