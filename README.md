@@ -10,7 +10,7 @@
 ## Download
 
 ```sh
-https://github.com/eucesar/Java-Projects-done-in-class-FIAP.git
+https://github.com/eucesar/Java-Projects-done-in-class-SI-FIAP.git
 ```
 
 ## Cesar
