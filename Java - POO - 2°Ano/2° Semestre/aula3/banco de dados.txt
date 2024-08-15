@@ -1,0 +1,19 @@
+CREATE TABLE java_vendedor (
+    id_vendedor number(5,0) PRIMARY key,
+    nome_vendedor VARCHAR2(50)
+    );
+    
+CREATE TABLE java_venda(
+id_venda number (5,0),
+id_vendedor number(5,0),
+total number (10, 2),
+data date, 
+primary key (id_venda),
+FOREIGN key (id_vendedor) 
+REFERENCES java_vendedor(id_vendedor)
+on delete CASCADE //rescreve a referencia toda aqui e deleta ela
+);
+
+INSERT INTO java_vendedor values (1, 'selmini');
+insert into java_venda values(100, 1, 1000, 
+to_date('14/08/2024', 'dd/mm/yyyy')); 
