@@ -5,7 +5,7 @@
 
 > 🌱👨‍💻 - During the "Programming Lab" classes, I developed projects for study, I will share all these projects in this repertoire during the bachelor. I carried out these projects at FIAP.
  <p>- 1st Year - Programming</p>
- <p>- 2nd Year - Object Orientation</p>
+ <p>- 2nd Year - Object Orientation with web</p>
 
 ## Download
 
